@@ -6,6 +6,7 @@ const Category = () => {
     const categoryNews = useLoaderData();
     return (
         <div>
+            
             <h2>This is Our Courses: {categoryNews.length}</h2>
             {
                 categoryNews.map(news => <NewsSummaryCard
