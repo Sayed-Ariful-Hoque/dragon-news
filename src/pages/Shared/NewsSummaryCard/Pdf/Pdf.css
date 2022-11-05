@@ -1,0 +1,23 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.print{ 
+    width: 100vh;
+}
+.sss{
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+}
+.img-1{
+   width: 100%;
+   border-radius: 10px;
+}
+.duration p{
+    background-color: rgba(128, 128, 128, 0.123);
+    padding: 10px 20px;
+    border-radius: 6px;
+}

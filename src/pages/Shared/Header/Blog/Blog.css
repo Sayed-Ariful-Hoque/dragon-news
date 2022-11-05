@@ -1,0 +1,14 @@
+
+.blog-color{
+    background-color:#2ec64f;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+.blog-color p{
+   font-weight: 600;
+   font-size: 25px;
+}
+.blog-1{
+    background-color: #2ec64f;
+    color: white;
+}

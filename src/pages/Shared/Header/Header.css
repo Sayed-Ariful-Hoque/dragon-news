@@ -1,0 +1,20 @@
+.online-m{
+    margin-left: 200px;
+}
+.online-m li{
+    margin: 20px;
+}
+.never-nav{
+    text-decoration: none;
+     color: black;
+     font-weight: bold;
+     
+}
+.never-nav img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
