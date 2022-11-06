@@ -5,6 +5,7 @@ import Home from "../../pages/Home/Home";
 import Login from "../../pages/Login/Login/Login";
 import Register from "../../pages/Login/Register/Register";
 import News from "../../pages/News/News/News";
+import Error from "../../pages/Others/TermsAndConditions/Error/Error";
 import TermsAndConditions from "../../pages/Others/TermsAndConditions/TermsAndConditions";
 import Blog from "../../pages/Shared/Header/Blog/Blog";
 import Questions from "../../pages/Shared/Header/Questions/Questions";
@@ -69,7 +70,13 @@ export const routes = createBrowserRouter([
             {
                 path:'/pdf',
                 element: <Pdf></Pdf>
-            }
+            },
+           
+            {
+                path:'/*',
+                element: <Error></Error>
+            },
+           
 
         ]
     }

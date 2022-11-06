@@ -1,0 +1,15 @@
+.error{
+    background-color: slategray;
+    padding: 200px;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    
+}
+.error p{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}

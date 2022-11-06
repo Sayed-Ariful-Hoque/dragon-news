@@ -8,8 +8,6 @@
     width: 100vh;
 }
 .sss{
-    width: 100vh;
-    height: 100vh;
     margin: auto;
 }
 .img-1{
@@ -21,3 +19,42 @@
     padding: 10px 20px;
     border-radius: 6px;
 }
+.btn-1{
+    display: flex;
+    justify-content: space-between;
+}
+.check-out{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 575.98px) {
+    
+    .print{
+        width: 40vh;
+        margin: auto;
+    }
+    .duration p{
+        padding: 5px;
+        margin-left: 8px;
+        border-radius: 6px;
+    }
+ }
+ @media (max-width: 767.98px) {
+    .print{
+        width: 40vh;
+        margin: auto;
+    }
+
+    .duration p{
+        padding: 5px;
+        margin-left: 8px;
+        border-radius: 6px;
+        background-color: rgb(5, 59, 255);
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+    }
+  }

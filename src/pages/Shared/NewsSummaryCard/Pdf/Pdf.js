@@ -3,13 +3,14 @@ import { Button, Image } from 'react-bootstrap';
 import ReactToPrint from 'react-to-print';
 import { useRef } from 'react';
 import './Pdf.css'
+import { Link } from 'react-router-dom';
 
 const Pdf = () => {
     const ref = useRef()
     return (
         <div className='print'>
             <div className='sss'>
-                <div ref={ref} className='a'>
+                <div ref={ref} className='div-1'>
                     <h1 className='text-center mb-4'>Online learning Platform</h1>
                     <Image className='img-1' src='https://th.bing.com/th/id/R.1047f73033027e30cfedcbcbab3a9815?rik=q52o2uwUq%2bhCaA&pid=ImgRaw&r=0' />
                     <div className='duration d-flex justify-content-evenly mt-5 '>
@@ -21,7 +22,10 @@ const Pdf = () => {
                 </div>
 
             </div>
+            <div className='btn-1'>
             <ReactToPrint trigger={()=><Button>PDF Print</Button>} content={()=>ref.current} />
+            <Link style={{textDecoration: 'none'}} to='/login' className=' check-out me-4 fs-3'>Check Out</Link>
+            </div>
         </div>
     );
 };

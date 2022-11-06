@@ -22,8 +22,8 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect className='mb-4' expand="lg" bg="light" variant="light">
             <Container>
-                <Navbar.Brand href="#home"><Link to='/' className='never-nav'>
-                    <span className='text-3xl font-[Poppins] cursor-pointer'><img className='online-img' src='https://th.bing.com/th/id/OIP.I_aqpjC0DTJcPFvWDs1jbAAAAA?pid=ImgDet&rs=1' /></span>
+                <Navbar.Brand href="#home"><Link to='/' style={{}} className='never-nav '>
+                    <span className='  text-3xl font-[Poppins] cursor-pointer '><img className='online-img' src='https://th.bing.com/th/id/OIP.I_aqpjC0DTJcPFvWDs1jbAAAAA?pid=ImgDet&rs=1' /></span>
                     Online learning Platform</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -32,7 +32,7 @@ const Header = () => {
                             <li><Link style={{textDecoration: 'none'}} to='/' className='me-4 fs-3'>Courses</Link></li>
                             <li><Link style={{textDecoration: 'none'}} to='/blog' className='me-4 fs-3'>Blog</Link></li>
                             <li><Link style={{textDecoration: 'none'}} to='/questions' className='me-4 fs-3'>Questions</Link></li>
-                            <li><Link style={{textDecoration: 'none'}} to='/loginWithGoogle' className='me-4 fs-3'>Google</Link></li>
+                            <li><Link style={{textDecoration: 'none'}} to='/loginWithGoogle' className='me-4 fs-3'>Sign In</Link></li>
                             <li><ToggleButton></ToggleButton></li>
 
                             

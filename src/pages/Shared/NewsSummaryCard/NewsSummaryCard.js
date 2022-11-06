@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import Image from 'react-bootstrap/Image'
 import { FaEye, FaRegBookmark, FaShareAlt, FaStar } from 'react-icons/fa';
 import { Button } from 'react-bootstrap';
-import Pdf from './Pdf/Pdf';
 
 const NewsSummaryCard = ({ news }) => {
     const { _id, title, author, details, image_url, rating, total_view, price,day } = news
