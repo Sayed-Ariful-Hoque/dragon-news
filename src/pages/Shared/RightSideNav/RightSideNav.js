@@ -9,7 +9,7 @@ import './RightSideNav.css'
 
 const RightSideNav = () => {
 
-    const {providerLogin, gitHubProviderLogin} = useContext(AuthContext)
+    const {providerLogin} = useContext(AuthContext)
 
     const googleProvider = new GoogleAuthProvider()
     const gitHubProvider = new GithubAuthProvider()
@@ -24,14 +24,16 @@ const RightSideNav = () => {
 
     }
     const handleGitSignIn = () =>{
-        gitHubProviderLogin(gitHubProvider)
+        providerLogin(gitHubProvider)
         .then(result => {
             const user = result.user;
+            alert("welcome");
             console.log(user);
         })
         .catch(error =>console.error(error))
 
     }
+
 
     return (
         <div className=' google-login text-center'>
